@@ -5,7 +5,7 @@ class Animal
 
     public $name;
 
-    function nameSET($name)
+    public function nameSET($name)
     {
         $this->name = $name;
     }

@@ -31,5 +31,7 @@ echo $coringao->CDB();
 echo "<br>";
 $coringao->SCCP("Sport Club Corinthians Paulista");
 echo $coringao->teamName;
+echo "<br>";
+echo "The $coringao->teamName borned in {$coringao->Corinthians()} and {$coringao->CDB()}";
 
 ?>
