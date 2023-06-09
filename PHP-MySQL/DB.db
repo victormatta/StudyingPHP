@@ -25,4 +25,4 @@ INSERT INTO phpmysql(name, lastname, email, age, job) VALUES (
     "emailfulanociclano@gmail.com",
     77,
     "Developer"
-)
+);
