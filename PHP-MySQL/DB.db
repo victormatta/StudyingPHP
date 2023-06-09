@@ -1,0 +1,28 @@
+CREATE DATABASE phpmysql;
+USE phpmysql;
+
+CREATE TABLE phpmysql(
+    name VARCHAR(50),
+    lastname VARCHAR(100),
+    email VARCHAR(100) NOT NULL UNIQUE,
+    age INT NOT NULL,
+    job VARCHAR(100)
+);
+
+INSERT INTO phpmysql(name, lastname, email, age, job) VALUES (
+    "Victor",
+    "de Paula da Matta",
+    "emailteste@gmail.com,
+    19,
+    "Software Developer"
+);
+
+SELECT * FROM phpmysql;
+
+INSERT INTO phpmysql(name, lastname, email, age, job) VALUES (
+    "Fulano",
+    "Ciclano",
+    "emailfulanociclano@gmail.com",
+    77,
+    "Developer"
+)
