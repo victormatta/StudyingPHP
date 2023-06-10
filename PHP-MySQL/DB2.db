@@ -18,3 +18,7 @@ INSERT INTO tools(name, year) VALUES (
     "My SQL",
     28
 );
+
+UPDATE phpmysql SET name = "Fulano Ciclano" WHERE job = "Developer";
+
+SELECT * FROM phpmysql;
