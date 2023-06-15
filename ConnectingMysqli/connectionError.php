@@ -2,15 +2,13 @@
 
 $host = "localhost";
 $user = "root";
-$pass = "";
+$pass = "16112003";
 $db = "phpmysql";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
-if ($conn->connect_errno) {
-    echo "ERRO NA CONEXÃO! <br>";
-    echo "Erro: " . $conn->connect_error;
-    exit();
+if ($conn->connect_error) {
+    die("Falha na conexão: " . $conn->connect_error);
 }
 
 ?>
